@@ -131,6 +131,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>kak</string>
+				<key>subtext</key>
+				<string>카카오 톡을 연 후 채팅방 목록을 가져옵니다.</string>
+				<key>text</key>
+				<string>채팅방 목록</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>6E3E059E-6674-4F18-8216-49D1A6AF475C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -150,27 +171,6 @@
 			<string>ADBA967D-9E51-49C5-9193-0831E89373CE</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>kak</string>
-				<key>subtext</key>
-				<string>카카오 톡을 연 후 채팅방 목록을 가져옵니다.</string>
-				<key>text</key>
-				<string>채팅방 목록</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>6E3E059E-6674-4F18-8216-49D1A6AF475C</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -200,7 +200,7 @@
 				<key>runningsubtext</key>
 				<string>채팅방을 가져오고 있습니다...</string>
 				<key>script</key>
-				<string>osascript listChattingRoom.scpt</string>
+				<string>osascript listChattingRoom.scpt {query}</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
