@@ -12,9 +12,29 @@ Kakaotalk workflow for Alfred 4
 
 * 채팅방 열기
 
+
 ## 📌 Prerequisite
 
 * 카카오톡 mac 버전 클라이언트 (Tested on 2.7.8 (903))
+
+## 📗 How to use
+
+* 채팅방 검색, 열기
+
+`kak` + <kbd>Enter</kbd> -> 카카오톡 실행 -> 검색할 채팅방 이름을 타이핑 하거나 열 채팅방을 선택
+
+* 카카오톡 잠금
+
+`kalock` + <kbd>Enter</kbd>
+
+* 캘린더 열기
+
+`kacal` + <kbd>Enter</kbd>
+
+* 설정 열기
+
+`kaconf` + <kbd>Enter</kbd>
+
 
 ##  🔨 Change config
 
