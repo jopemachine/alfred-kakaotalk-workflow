@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>com.jopemachine.alfredkakaotalkworkflow</string>
 	<key>category</key>
-	<string>Tools</string>
+	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
 		<key>6E3E059E-6674-4F18-8216-49D1A6AF475C</key>
@@ -334,7 +334,9 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Evernote workflow for Alfred 4
+
+https://github.com/jopemachine/alfred-kakaotalk-workflow</string>
 	<key>uidata</key>
 	<dict>
 		<key>17735694-8376-4DC5-9D26-A339BAB74793</key>
@@ -408,6 +410,10 @@
 			<integer>120</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>0.0.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/jopemachine/alfred-kakaotalk-workflow</string>
 </dict>
