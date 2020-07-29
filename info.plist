@@ -4,8 +4,36 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.jopemachine.alfredkakaotalkworkflow</string>
+	<key>category</key>
+	<string>Tools</string>
 	<key>connections</key>
 	<dict>
+		<key>A5DDF7A8-B88E-452F-A6FC-E130CD73260C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E0BDF49C-610D-4180-B29E-230E7EEE904F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BCE0A7B5-37D6-4CCC-8863-E49722112D90</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CF87D26C-C1F9-4E7A-8E5A-B02229511CA5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>F770BEC0-5279-43F0-AA6C-F95D64553B27</key>
 		<array>
 			<dict>
@@ -33,6 +61,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>kaconf</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>카카오톡 설정 열기</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>F770BEC0-5279-43F0-AA6C-F95D64553B27</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -56,42 +105,137 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>kak</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>채팅방을 가져오고 있습니다...</string>
+				<key>script</key>
+				<string>osascript listChattingRoom.scpt</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string>index.js</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>채팅방 가져오기</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>6E3E059E-6674-4F18-8216-49D1A6AF475C</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>kaconf</string>
+				<string>kacal</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>카카오톡 설정 열기</string>
+				<string>카카오톡 캘린더 열기</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>F770BEC0-5279-43F0-AA6C-F95D64553B27</string>
+			<string>BCE0A7B5-37D6-4CCC-8863-E49722112D90</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>osascript openCalendar.scpt</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
 				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CF87D26C-C1F9-4E7A-8E5A-B02229511CA5</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>osascript openCalendar.scpt</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E0BDF49C-610D-4180-B29E-230E7EEE904F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
 				<key>keyword</key>
-				<string>kal</string>
+				<string>kalock</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>카카오톡 채팅방 리스트</string>
+				<string>카카오톡 잠금</string>
 				<key>withspace</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>C2ABAE6E-F6A8-4A17-8DBA-83B2C57F5D29</string>
+			<string>A5DDF7A8-B88E-452F-A6FC-E130CD73260C</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -107,12 +251,40 @@
 			<key>ypos</key>
 			<integer>120</integer>
 		</dict>
-		<key>C2ABAE6E-F6A8-4A17-8DBA-83B2C57F5D29</key>
+		<key>6E3E059E-6674-4F18-8216-49D1A6AF475C</key>
 		<dict>
 			<key>xpos</key>
 			<integer>225</integer>
 			<key>ypos</key>
-			<integer>270</integer>
+			<integer>245</integer>
+		</dict>
+		<key>A5DDF7A8-B88E-452F-A6FC-E130CD73260C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>225</integer>
+			<key>ypos</key>
+			<integer>495</integer>
+		</dict>
+		<key>BCE0A7B5-37D6-4CCC-8863-E49722112D90</key>
+		<dict>
+			<key>xpos</key>
+			<integer>225</integer>
+			<key>ypos</key>
+			<integer>370</integer>
+		</dict>
+		<key>CF87D26C-C1F9-4E7A-8E5A-B02229511CA5</key>
+		<dict>
+			<key>xpos</key>
+			<integer>370</integer>
+			<key>ypos</key>
+			<integer>370</integer>
+		</dict>
+		<key>E0BDF49C-610D-4180-B29E-230E7EEE904F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>370</integer>
+			<key>ypos</key>
+			<integer>495</integer>
 		</dict>
 		<key>F770BEC0-5279-43F0-AA6C-F95D64553B27</key>
 		<dict>
