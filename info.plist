@@ -8,6 +8,19 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>5B981CC1-16BA-457D-9C97-338AD34410C7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>944B52E4-C7F4-46FF-ABD3-51BEDFD8F36D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>6E3E059E-6674-4F18-8216-49D1A6AF475C</key>
 		<array>
 			<dict>
@@ -90,6 +103,50 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
+				<string>kaa</string>
+				<key>subtext</key>
+				<string>알람 설정을 토글합니다.</string>
+				<key>text</key>
+				<string>카카오톡 알람 설정 변경</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>5B981CC1-16BA-457D-9C97-338AD34410C7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>osascript toggleAlert.scpt</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>944B52E4-C7F4-46FF-ABD3-51BEDFD8F36D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
 				<string>kaconf</string>
 				<key>subtext</key>
 				<string></string>
@@ -131,27 +188,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>kak</string>
-				<key>subtext</key>
-				<string>카카오 톡을 연 후 채팅방 목록을 가져옵니다.</string>
-				<key>text</key>
-				<string>채팅방 목록</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>6E3E059E-6674-4F18-8216-49D1A6AF475C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -171,6 +207,27 @@
 			<string>ADBA967D-9E51-49C5-9193-0831E89373CE</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>kak</string>
+				<key>subtext</key>
+				<string>카카오 톡을 연 후 채팅방 목록을 가져옵니다.</string>
+				<key>text</key>
+				<string>채팅방 목록</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>6E3E059E-6674-4F18-8216-49D1A6AF475C</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -247,27 +304,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>kacal</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>카카오톡 캘린더 열기</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>BCE0A7B5-37D6-4CCC-8863-E49722112D90</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -287,6 +323,27 @@
 			<string>CF87D26C-C1F9-4E7A-8E5A-B02229511CA5</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>kacal</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>카카오톡 캘린더 열기</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BCE0A7B5-37D6-4CCC-8863-E49722112D90</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -342,78 +399,92 @@ https://github.com/jopemachine/alfred-kakaotalk-workflow</string>
 		<key>17735694-8376-4DC5-9D26-A339BAB74793</key>
 		<dict>
 			<key>xpos</key>
-			<integer>375</integer>
-			<key>ypos</key>
 			<integer>370</integer>
+			<key>ypos</key>
+			<integer>430</integer>
+		</dict>
+		<key>5B981CC1-16BA-457D-9C97-338AD34410C7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>220</integer>
+			<key>ypos</key>
+			<integer>55</integer>
 		</dict>
 		<key>6CBCF6BC-1B97-46CF-886A-6D322A58AEB6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>375</integer>
+			<integer>370</integer>
 			<key>ypos</key>
-			<integer>120</integer>
+			<integer>180</integer>
 		</dict>
 		<key>6E3E059E-6674-4F18-8216-49D1A6AF475C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>225</integer>
+			<integer>220</integer>
 			<key>ypos</key>
-			<integer>245</integer>
+			<integer>305</integer>
 		</dict>
 		<key>8C8FD0B7-3E6C-4907-87D3-59CA2A4B1856</key>
 		<dict>
 			<key>xpos</key>
-			<integer>225</integer>
+			<integer>220</integer>
 			<key>ypos</key>
-			<integer>370</integer>
+			<integer>430</integer>
 		</dict>
-		<key>A5DDF7A8-B88E-452F-A6FC-E130CD73260C</key>
-		<dict>
-			<key>xpos</key>
-			<integer>225</integer>
-			<key>ypos</key>
-			<integer>620</integer>
-		</dict>
-		<key>ADBA967D-9E51-49C5-9193-0831E89373CE</key>
+		<key>944B52E4-C7F4-46FF-ABD3-51BEDFD8F36D</key>
 		<dict>
 			<key>xpos</key>
 			<integer>375</integer>
 			<key>ypos</key>
-			<integer>245</integer>
+			<integer>55</integer>
+		</dict>
+		<key>A5DDF7A8-B88E-452F-A6FC-E130CD73260C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>220</integer>
+			<key>ypos</key>
+			<integer>680</integer>
+		</dict>
+		<key>ADBA967D-9E51-49C5-9193-0831E89373CE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>370</integer>
+			<key>ypos</key>
+			<integer>305</integer>
 		</dict>
 		<key>BCE0A7B5-37D6-4CCC-8863-E49722112D90</key>
 		<dict>
 			<key>xpos</key>
-			<integer>225</integer>
+			<integer>220</integer>
 			<key>ypos</key>
-			<integer>495</integer>
+			<integer>555</integer>
 		</dict>
 		<key>CF87D26C-C1F9-4E7A-8E5A-B02229511CA5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>370</integer>
+			<integer>365</integer>
 			<key>ypos</key>
-			<integer>495</integer>
+			<integer>555</integer>
 		</dict>
 		<key>E0BDF49C-610D-4180-B29E-230E7EEE904F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>370</integer>
+			<integer>365</integer>
 			<key>ypos</key>
-			<integer>620</integer>
+			<integer>680</integer>
 		</dict>
 		<key>F770BEC0-5279-43F0-AA6C-F95D64553B27</key>
 		<dict>
 			<key>xpos</key>
-			<integer>225</integer>
+			<integer>220</integer>
 			<key>ypos</key>
-			<integer>120</integer>
+			<integer>180</integer>
 		</dict>
 	</dict>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.0.1</string>
+	<string>0.0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/jopemachine/alfred-kakaotalk-workflow</string>
 </dict>

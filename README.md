@@ -35,6 +35,9 @@ Kakaotalk workflow for Alfred 4
 
 `kaconf` + <kbd>Enter</kbd>
 
+* 알람 토글링
+
+`kaa` + <kbd>Enter</kbd>
 
 ##  🔨 Change config
 
