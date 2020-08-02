@@ -2,6 +2,10 @@
   <a href="#">
 		Alfred-kakaotalk-workflow
   </a>
+	<p align="center">
+<a href="https://github.com/jopemachine/alfred-kakaotalk-workflow/releases/latest"><img src="https://img.shields.io/github/release/jopemachine/alfred-kakaotalk-workflow.svg?style=flat" alt="GitHub Release"></a>
+</p>
+	
 </h1>
 
 Kakaotalk workflow for Alfred 4
