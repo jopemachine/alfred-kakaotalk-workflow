@@ -353,7 +353,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>osascript openCalendar.scpt</string>
+				<string>osascript lock.scpt</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -484,7 +484,7 @@ https://github.com/jopemachine/alfred-kakaotalk-workflow</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.0.4</string>
+	<string>0.0.5</string>
 	<key>webaddress</key>
 	<string>https://github.com/jopemachine/alfred-kakaotalk-workflow</string>
 </dict>
