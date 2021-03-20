@@ -5,7 +5,7 @@
     "url": "https://github.com/jopemachine/alfred-kakaotalk-workflow"
   },
   "name": "alfred-kakaotalk-workflow",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Alfred 4 workflow for Kakaotalk",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
