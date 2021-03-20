@@ -17,7 +17,21 @@ Kakaotalk workflow for Alfred 4
 
 ## 📌 Prerequisite
 
+* Node JS
+
+* [Alfred powerpack](https://www.alfredapp.com/powerpack/)
+
 * 카카오톡 mac 버전 클라이언트 (Tested on 2.7.8 (903))
+
+##  🔨 How to install
+
+1. **Install package by npm**
+
+```
+$ npm install --global alfred-kakaotalk-workflow
+```
+
+2. **Cache by `kacache` command.**
 
 ## 📗 How to use
 
