@@ -3,19 +3,17 @@
 		Alfred-kakaotalk-workflow
   </a>
 	<p align="center">
-<a href="https://github.com/jopemachine/alfred-kakaotalk-workflow/releases/latest"><img src="https://img.shields.io/github/release/jopemachine/alfred-kakaotalk-workflow.svg?style=flat" alt="GitHub Release"></a>
+	<img src="https://img.shields.io/badge/Alfred-4-blueviolet">
+	<img src="https://img.shields.io/npm/dt/alfred-kakaotalk-workflow" alt="NPM Release">
+  <img src="https://img.shields.io/github/license/jopemachine/alfred-kakaotalk-workflow.svg" alt="License">
 </p>
-	
 </h1>
 
 Kakaotalk workflow for Alfred 4
 
 ## 📋 Features
 
-* 채팅방 목록 검색
-
-* 채팅방 열기
-
+* 채팅방 목록을 검색하고, 검색한 채팅방 열기
 
 ## 📌 Prerequisite
 
@@ -23,9 +21,15 @@ Kakaotalk workflow for Alfred 4
 
 ## 📗 How to use
 
+* 채팅방 캐시
+
+`kacache` + <kbd>Enter</kbd> -> 카카오톡의 채팅방 이름을 모두 가져와 저장. (수 분 이상 걸릴 수 있음)
+
+`kak` 사용 전 반드시 실행되어야 함.
+
 * 채팅방 검색, 열기
 
-`kak` + <kbd>Enter</kbd> -> 카카오톡 실행 -> 검색할 채팅방 이름을 타이핑 하거나 열 채팅방을 선택
+`kak` + <kbd>Enter</kbd> -> 저장해 놓은 채팅방 이름들을 가져와 검색.
 
 * 카카오톡 잠금
 
@@ -42,28 +46,6 @@ Kakaotalk workflow for Alfred 4
 * 알람 토글링
 
 `kaa` + <kbd>Enter</kbd>
-
-##  🔨 Change config
-
-`config.json`의 설정을 바꿔 워크플로우의 동작을 변경시킬 수 있습니다.
-
-* **limitCount**
-
-Type: `number`
-
-검색, 표시할 채팅방의 갯수.
-
-* **subtitle**
-
-Type: `string (enum)`
-
-subtitle로 표시할 정보.
-
-* `lastChatting`: 해당 채팅방의 마지막 채팅 표시
-
-* `lastChattingTime`: 해당 채팅방의 마지막 채팅 시각 표시
-
-* `none`: 표시하지 않음
 
 ## License
 
